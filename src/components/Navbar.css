@@ -1,0 +1,38 @@
+nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+  color: black;
+  height: 100px;
+}
+
+nav img {
+  margin: 10px;
+}
+
+nav h1 {
+  font-size: xx-large;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+ul li button {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s;
+  font-size: large;
+  background-color: gold;
+}
+
+ul li button:hover {
+  background-color: goldenrod;
+}
