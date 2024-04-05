@@ -1,6 +1,12 @@
+import Navbar from "../components/Navbar"
+import Search from "../components/Search"
+
 const List = () => {
   return (
-    <h1>Hola</h1>
+    <>
+    <Navbar/>
+    <Search/>
+    </>
   )
 }
 

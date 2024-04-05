@@ -8,12 +8,9 @@ nav {
   height: 100px;
 }
 
-nav img {
-  margin: 10px;
-}
-
 nav h1 {
   font-size: xx-large;
+  font-family: cursive;
 }
 
 nav ul {

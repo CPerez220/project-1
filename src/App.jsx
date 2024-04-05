@@ -11,10 +11,9 @@ function App() {
 
   return (
     <>
-      <Home BASE_API_URL={BASE_API_URL}/>
       <Routes>
-        <Route path="/Home" element={<Home/>}/>
-        <Route path="./List" element={<List/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/List" element={<List/>}/>
       </Routes>
     </>
   )
